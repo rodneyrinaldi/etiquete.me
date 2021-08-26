@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  min-height: 6vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  border: black 1px solid;
+}
+
+@media (max-width: 600px) {
+}
