@@ -7,7 +7,7 @@ function Home() {
   return (
     <Layout default='yes'>
       <Section>
-        pets e pessoas
+        informações principais das aplicabilidades
       </Section>
       <Section>
         segurança de pets, achado pode contatar donos
