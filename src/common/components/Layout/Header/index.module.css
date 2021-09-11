@@ -73,8 +73,9 @@
 
   .menuicon {
     display: flex;
-    margin-left: 6vw;
-    width: 8vw;
+    margin-left: 2vw;
+    padding-top: 10px;
+    width: 7vw;
   }
 
   .logo {
