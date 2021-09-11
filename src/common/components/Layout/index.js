@@ -1,9 +1,9 @@
 import Header from './Header'
 import Menu from './Menu'
 import Main from './Main'
+import Banner from './Banner'
 import Footer from './Footer'
 
-import * as styles from './index.module.css'
 
 function Layout({ children, ...props }) {
   return (
@@ -11,6 +11,7 @@ function Layout({ children, ...props }) {
       <Header>
         <Menu />
       </Header>
+      <Banner />
       {
         props.default !== 'yes'
           ? <Main>{children}</Main>

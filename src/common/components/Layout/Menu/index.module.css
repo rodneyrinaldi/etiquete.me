@@ -2,13 +2,24 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  
-  border: black 1px solid;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2vh;
 }
 .container a {
-  padding: 10px;
+  padding: 0 20px;
 }
 
-
 @media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2vh 2vw 5vh;
+  }
+  .container a {
+    padding: 0 6px;
+  }
 }

@@ -6,7 +6,7 @@ import * as Ss from './index.module.css'
 function Home() {
   return (
     <Layout default='yes'>
-      <Section>
+      <Section bgcolor='#ccc'>
         informações principais das aplicabilidades
       </Section>
       <Section>
