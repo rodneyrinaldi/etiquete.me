@@ -9,7 +9,7 @@ import menuClosed from "../../../../assets/menulight.png";
 import menuOpened from "../../../../assets/menudark.png";
 
 function Header({ children, ...props }) {
-  const [menuStatus, setMenuStatus] = useState(true);
+  const [menuStatus, setMenuStatus] = useState(false);
 
   function handleMenu() {
     // setMenuStatus(!menuStatus);
@@ -40,7 +40,7 @@ function Header({ children, ...props }) {
             <a onClick={() => setMenuStatus(!menuStatus)}>
               <Image
                 id="menubutton"
-                src={menuStatus ? menuClosed : menuOpened}
+                src={!menuStatus ? menuClosed : menuOpened}
                 alt="menu fechado"
                 layout="intrinsic"
                 width={30}
@@ -52,7 +52,7 @@ function Header({ children, ...props }) {
 
         <div
           className={styles.menu}
-          style={menuStatus ? { display: "none" } : { display: "flex" }}
+          style={!menuStatus ? { display: "none" } : { display: "flex" }}
         >
           {children}
         </div>
