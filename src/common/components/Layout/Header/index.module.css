@@ -67,14 +67,14 @@
     width: 100vw;
     font-size: 17px;
     font-weight: 400;
-    color: cornsilk;
-    background: rgb(159, 32, 191);
+    color: var(--main-color);
+    background: var(--main-bcolor);
   }
 
   .menuicon {
     display: flex;
     margin-left: 2vw;
-    padding-top: 10px;
+    padding-top: 7px;
     width: 7vw;
   }
 

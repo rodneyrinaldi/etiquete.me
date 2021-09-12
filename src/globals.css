@@ -1,3 +1,8 @@
+:root {
+  --main-bcolor: rgb(159, 32, 191);
+  --main-color: rgb(249, 238, 252);
+}
+
 html,
 body {
   padding: 0;

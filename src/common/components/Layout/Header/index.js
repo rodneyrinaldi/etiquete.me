@@ -24,7 +24,21 @@ function Header({ children, ...props }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="etiquete.me" content="Página de mapeamento or QRCode" />
       </Head>
-      <div className={styles.container}>
+      <div
+        className={styles.container}
+        style={
+          menuStatus
+            ? {
+                position: "fixed",
+                zIndex: "100",
+                top: "0vh",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "100vw",
+              }
+            : {}
+        }
+      >
         <div className={styles.main}>
           <div className={styles.logo}>
             <Image
