@@ -5,12 +5,9 @@
   align-items: center;
 
   min-height: 64vh;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
+  padding: 2vh 0 1vh;
   margin: 0;
-  background: rgb(206, 224, 206);
+  background: var(--main-color);
 }
 
 @media (max-width: 600px) {

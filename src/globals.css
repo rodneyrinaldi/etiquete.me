@@ -1,6 +1,23 @@
 :root {
-  --main-bcolor: rgb(159, 32, 191);
-  --main-color: rgb(249, 238, 252);
+  --main1-color: rgb(0, 0, 0);
+  --main2-color: rgb(159, 32, 191);
+  --main3-color: rgb(249, 249, 249);
+  --main4-color: rgb(255, 255, 255);
+
+  --x1-color: rgb(19, 4, 23);
+  --x2-color: rgb(47, 9, 57);
+  --x3-color: rgb(89, 18, 107);
+  --x4-color: rgb(131, 26, 157);
+
+  --y1-color: rgb(184, 43, 219);
+  --y2-color: rgb(206, 110, 231);
+  --y3-color: rgb(235, 194, 245);
+  --y4-color: rgb(251, 244, 253);
+
+  --z1-color: rgb(174, 6, 217);
+  --z2-color: rgb(133, 75, 148);
+  --z3-color: rgb(123, 92, 131);
+  --z4-color: rgb(113, 109, 114);
 }
 
 html,
@@ -17,5 +34,7 @@ a {
 }
 
 * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }

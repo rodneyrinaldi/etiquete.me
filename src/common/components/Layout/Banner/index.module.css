@@ -4,17 +4,13 @@
   justify-content: flex-start;
   align-items: center;
 
-  min-height: 16vh;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  height: 25vh;
   padding: 0;
   margin: 0;
-  background: rgb(114, 224, 114);
+  background: var(--y3-color);
 }
 
 @media (max-width: 600px) {
   .container {
-    min-height: 10vh;
   }
 }
