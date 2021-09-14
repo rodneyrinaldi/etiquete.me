@@ -32,4 +32,7 @@
     color: var(--y4-color);
     border-bottom: none;
   }
+  .container a:hover {
+    border-bottom: none;
+  }
 }
