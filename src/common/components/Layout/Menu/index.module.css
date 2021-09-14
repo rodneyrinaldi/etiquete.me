@@ -12,11 +12,10 @@
   word-spacing: 3px;
   letter-spacing: 3px;
   font-weight: 600;
+  border-bottom: 4px solid var(--main4-color);
 }
 .container a:hover {
-  background: var(--y1-color);
-  color: var(--main4-color);
-  border-radius: 0.4vh;
+  border-bottom: 3px solid var(--y1-color);
 }
 
 @media (max-width: 600px) {
@@ -31,8 +30,6 @@
     width: 100vw;
     line-height: 30px;
     color: var(--y4-color);
-  }
-  .container a:hover {
-    background: var(--y4-color);
+    border-bottom: none;
   }
 }
