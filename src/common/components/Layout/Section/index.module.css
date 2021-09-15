@@ -5,7 +5,7 @@
   align-items: center;
 
   width: 98.8vw;
-  min-height: 4vh;
+  height: 26vh;
   padding: 0;
   margin: 0;
   background: var(--main4-color);
@@ -13,6 +13,6 @@
 
 @media (max-width: 600px) {
   .container {
-    min-height: 4vh;
+    height: 26vh;
   }
 }
