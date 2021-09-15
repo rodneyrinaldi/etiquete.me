@@ -16,6 +16,18 @@ function Header({ ...props }) {
     <>
       <Head>
         <title>etiquete.me</title>
+        <meta property="og:title" content="etiquete.me serviços" />
+        <meta
+          property="og:description"
+          content="Página de mapeamento or QRCode"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://etiquete.me/" />
+        <meta property="og:image" content="https://etiquete.me/ogimage.jpeg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="620" />
+        <meta property="og:image:height" content="320" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div
         className={styles.container}
