@@ -19,6 +19,12 @@ class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://etiquete.me/" />
           <meta property="og:image" content="https://etiquete.me/ogimage.png" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta name="etiquete.me" content="Página de mapeamento or QRCode" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />
