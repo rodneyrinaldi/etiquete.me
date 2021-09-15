@@ -18,7 +18,7 @@ class MyDocument extends Document {
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://etiquete.me/" />
-          <meta property="og:image" content="https://etiquete.me/tag.png" />
+          <meta property="og:image" content="https://etiquete.me/ogimage.png" />
         </Head>
         <body>
           <Main />
