@@ -18,10 +18,6 @@
   background: var(--main4-color);
 }
 
-.menu {
-  display: flex;
-}
-
 .menuicon {
   display: none;
 }

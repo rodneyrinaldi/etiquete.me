@@ -8,7 +8,7 @@ import logo from "../../../../assets/etiquete-me.png";
 import menuClosed from "../../../../assets/menulight.png";
 import menuOpened from "../../../../assets/menudark.png";
 
-function Header({ children, ...props }) {
+function Header({ ...props }) {
   const [menuStatus, setMenuStatus] = useState(false);
   const { height } = useWindowSize();
 
@@ -22,9 +22,7 @@ function Header({ children, ...props }) {
         style={
           menuStatus
             ? {
-                position: "fixed",
-                zIndex: "100",
-                width: "100vw",
+                display: "flex",
               }
             : {}
         }
@@ -42,27 +40,16 @@ function Header({ children, ...props }) {
 
           <div className={styles.menuicon}>
             <a onClick={() => setMenuStatus(!menuStatus)}>
-              <Image
+              {/* <Image
                 id="menubutton"
                 src={!menuStatus ? menuClosed : menuOpened}
                 alt="menu fechado"
                 layout="intrinsic"
                 width={30}
                 height={30}
-              />
+              /> */}
             </a>
           </div>
-        </div>
-
-        <div
-          className={styles.menu}
-          style={
-            !menuStatus && height <= 640
-              ? { display: "none" }
-              : { display: "flex" }
-          }
-        >
-          {children}
         </div>
       </div>
     </>
