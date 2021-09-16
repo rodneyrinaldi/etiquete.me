@@ -13,8 +13,8 @@ function Section({ children, bgcolor }) {
             src={logo}
             alt="logo etiquete.me"
             layout="intrinsic"
-            width={100}
-            height={75}
+            width={60}
+            height={60}
           />
         </div>
         {children}
